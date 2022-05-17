@@ -1,6 +1,6 @@
 import math
-a = int(input("please enter the first side of the triangle: "))
-b = int(input("please enter the second side of the triangle: "))
+a = int(input("please enter the first side of the triangle:  "))
+b = int(input("please enter the second side of the triangle:  "))
 aa = math.pow(a, 2)
 bb = math.pow(b, 2)
 hh = aa+bb
