@@ -3,13 +3,12 @@
 #if the number is between 12 and 14 then it tells you that you are in Intermediate school
 #if the number is between 15 and 18 then it tells you that you are in High School
 #if the number is more than 18 then it tells you that you are in College or University
-age = int(input("Enter your age: ))
-if age =< 11 && age => 5:
+age = int(input("Enter your age: "))
+if age < 12 and age > 4:
   print("you are in elementary school")
-elif age =< 14 && age => 12:
+elif age < 15 and age > 11:
   print("You are in intermediate school")
-elif age =< 18 && age => 15:
+elif age < 19 and age > 14:
   print("You are in high school")
-elif age < 18:
+elif age > 20:
   print("You are in college/University")
-  
