@@ -5,8 +5,8 @@ hi = int(input("input a higher number: ")) # lets user pick a high number
 print("")# adds a space to avoid it looking to crammed
 
 ans = random.randint(low, hi)#picks a random number
-guess = 0 #
-guesses = 0#
+guess = 0 #declare the variable that checks if the answer is right
+guesses = 0#declare the variable that shows guesses at the end
 
 while guess != ans: #if you dont get the answer right it keeps repeating
     guess = int( input("Guess a number in between "+str(low)+" and "+str(hi)+": " ) )#asks user for a guess
