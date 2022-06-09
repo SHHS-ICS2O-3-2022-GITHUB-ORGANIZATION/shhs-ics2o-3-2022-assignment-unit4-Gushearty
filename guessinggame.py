@@ -1,3 +1,4 @@
+#a number guessing game
 import random #lets you use random number generators
 
 low = int(input("input a low number: ")) # lets user pick a low number
